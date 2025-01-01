@@ -1,0 +1,21 @@
+1- select * from emp2030 order by hiredate desc;
+2- select * from emp2030 order by hiredate;
+3- select deptno,dname from dept1020 where deptno>20;
+4-select ename,sal,comm from emp2030 where comm>salaries;
+5-select ename,sal,comm from emp2030 where comm<sal;
+6-select ename,sal from emp where sal between 500 and 1500;
+7-select mgr,ename from emp where mgr=7902 or mgr=7566 or mgr=7788;
+8-select mgr from emp2030 where mgr between 7092 and 7788;
+9-select * from emp2030 where ename like's%';
+10-select * from emp2030 where ename like'scott';
+11- select ename from emp2030 where ename like '%%%%%' and job='manager';
+12-select ename,job from emp2030 where not job='manager';
+13-select ename,job from emp where job not like'a%';
+14-select ename,job,mgr from emp where mgr is not null;
+15-select ename, job,deptno from emp2030 where (job='manager' or job='clerk') and deptno=10;
+16-select ename,job,sal from emp2030 where job='manager' or job='salesman' and sal>1500;
+17-select job,avg(sal) from emp2030 groub by job;
+18-select job,avg(sal) from emp2030 where not job='manager' group by job;
+19-select deptno,avg(sal) from emp2030 group by deptno;
+20-select deptno,avg(sal) from emp2030 group by deptno;
+21-

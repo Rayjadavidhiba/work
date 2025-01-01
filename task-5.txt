@@ -1,0 +1,58 @@
+1)select abs(-18) from dual;
+2) select abs(30) from dual;
+3)select ceil(22.5) from dual;
+4) select ceil(31.2) from dual;
+5) select floor(37.2) from dual;
+6) select lower('VIDHI') from dual;
+7) select sqrt(6) from dual;
+8-select substr(ename 1,2)from emp2030;
+9-select substr(hiredate 8,9)from emp2030;
+10) select ename from emp2030 where soundex(ename)=soundex(ename);
+11)select ename from emp2030 where soundex(ename)=soundex('allen');
+12)select min(sal) from emp2030;
+13)select max(sal) from emp2030;
+14) select length(ename) from emp2030;
+15)select length(job) from emp2030;
+16)select vsize(ename) from emp2030;
+17) select ascii(2) from dual;
+18-select empno from emp2030;
+19-
+20-
+21)select vsize(ename) from emp2030 where deptno=10;
+22-select sum(sal0 from emp2030;
+23-select grade from salgrade;
+24-select dname from dept1020 where loc='new york';
+25-select emp2030.ename,dept1020.dname from emp2030 inner join dept1020 on 
+emp2030.deptno=deptno1020.deptno where dname='accounting';
+26-
+27-
+28)select emp2030.ename,dept1020.dname from emp2030 inner join dept1020 on emp2030.deptno=deptno1020.deptno where dname='sales';
+29-select emp2030.ename,dept1020.dname from emp2030 inner join dept1020 on emp2030.deptno=deptno1020.deptno where loc='new york'ordname='accounting';
+
+30-select emp2030.ename from emp2030 inner join dept1020 on emp2030.deptno=deptno1020.deptno where loc='chicago';
+31-
+32-select *from emp2030 where ename='blake' and job='manager';
+
+
+33-select ename,sal from emp2030 where sal>2975;
+
+34-select dname from dept1020 where deptno='40';
+
+35-select deptno from emp2030 where deptnop=10 or deptno=30 union select deptno from deptno1020 where dept=10 or dept=30;
+
+36-select deptno from emp2030 where deptnop=10 or deptno=30 intersect select deptno from deptno1020 where dept=10 or dept=30;
+
+37-select ename,job from emp2030 where deptno=10 and job in(select job from emp2030 where deptno=30);
+
+38) select ename,min(sal) from emp2030 group by ename;
+39-select ename from emp2030 where job=any(select ename from emp2030 where ename='blake');
+40)select deptno,min(sal)from emp2030 group by deptno;
+41)select deptno,avg(sal)from emp2030 group by deptno having deptno=10 or deptno=20;
+42-
+43-
+44-
+45-select job,avg(sal) from emp2030 group by job order by avg(sal)desc fetch first 1 row only;
+46-
+47-
+48-
+49-

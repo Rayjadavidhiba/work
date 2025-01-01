@@ -1,0 +1,40 @@
+1)desc emp2030;
+2)select systimestamp from dual;
+3) select count(ename) from emp2030;
+ 4)select sum(sal) from emp2030;
+5)select count(job) from emp2030 where job='manager';
+6)select count(job) from emp2030;
+7)select avg(sal)from emp2030 where (job='clerk' or job='salesman'orjob='manager'or job='analyst'or job='president');
+8)elect avg(sal)from emp2030 where (job='clerk' or job='salesman'orjob='manager'or job='analyst'or job='president');
+9)select min(sal),max(sal) from emp2030;
+10)select ename,last_day(hiredate)from emp2030;
+11)select next_day('12-mar-98','friday')from dual;
+12-select last_day(hiredate)from emp2030;
+13-
+14-select ename,from emp2030 where hiredate='1983'
+15-
+16-
+17-select ename deptno,hiredate from emp;
+18-
+19)select count(job) from emp2030 where hiredate='22-3-81;
+20)select count(job) from emp2030 where hiredate='17-12-80'and ename;
+
+21) select deptno,dname,decode(dname,'acconting','10','research','20','sales','30')from dept1020;
+22-
+23-
+24-
+25-
+26-select ename ,deptno from emp2030 where deptno=40; 
+
+27)select hiredate,empno,ename,job,mgr,sal,comm,deptno from emp2030;
+
+28)select *from emp2030;
+ttitle'report of the employee table'
+;
+select *from emp2030;
+
+29) btitle'page number'
+;
+select *from emp2030;
+30-
+

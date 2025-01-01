@@ -1,0 +1,29 @@
+1- alter table emp2030 rename column ename to your_name;
+
+2- alter table emp2030 rename column sal to salaries;
+
+3-
+
+4-select salaries,salaries+100 as total_salaries from emp2030 where job='manager';
+
+5-select empno,ename,(sal+1000-4500)as total_sal from emp2030;
+
+6-select ename, sal+100 as total_sal from emp2030 where ename='scott';
+
+7-select empn,ename,(sal+100-500/100) as total_sal frpm emp2030;
+8-select mod(sal,5)from emp2030;
+
+9-select mod(sal,8) from emp2030 where job='salesman';
+10- select ename,sal*2 from emp2030 where job='manager';
+11-select ename,sal/30 from emp2030;
+12-alter table emp2030 rename column sal to annsal;
+13-
+14-
+15-
+16-select ename,(sal*12+comm)from emp2030;
+17- select distinct deptno from emp2030;
+18-select distinct deptno,job from emp2030;
+19-
+20-
+21-select distinct job from emp2030;
+22-select distinct job from emp2030;

@@ -1,0 +1,31 @@
+1-select * from emp2030;
+
+2-desc emp2030;
+ 
+3-select * from tabs;
+
+4-select empno from emp2030;
+  
+5-select ename,job from emp2030;
+
+6-select comm from emp2030;
+     
+7-select mgr from emp2030;
+
+8-select deptno from emp2030;
+   
+9-select epmno,ename,job,mgr from emp2030;
+
+10-select ename,mgr from emp2030;
+
+11-select job,comm from emp2030;
+
+ 12-select ename,deptno from emp2030;
+
+13- select deptno,ename,sal,job from emp2030;
+
+14-select deptno,dname from dept1020;
+
+15-select grade from salgrade;
+   
+16-select * from salgrade;

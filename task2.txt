@@ -1,0 +1,17 @@
+1-select * from emp2030 where job='manager';
+
+2-select * from emp2030 where job='president';
+
+3-select * from emp2030 where job='manager' or job='clerk';
+
+4-select * from emp2030 where job='manager' and deptno=10;
+
+5-select * from emp2030 where deptno=10;
+
+6-select * from emp2030 where not( deptno=20 or deptno=30 or deptno=40 )and not job='manager';
+
+7- select * from emp2030 where job='analyst'or job='manager' and deptno=10;
+
+ 8-select *from emp2030 where not job='president'and not job='analyst' and not job='salesman';
+
+9-select * from emp2030 where job='clerk' and deptno=10;
